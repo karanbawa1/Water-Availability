@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Availability</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="project-name">
+       <h3>Water Availability</h3>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service-section">About</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Protect the
+        Water, Preserve
+        Life </h1>
+        <br>
+      <p>From clean rivers to abundant
+        aquifers... ensuring water for every
+        community.</p>
+      <a href="#start-journey" class="hero-button">Start Your Conservation
+        Journey Today</a>
+    </div>
+  </section>
+
+  <!-- Service Section (About Section) -->
+  <section id="service-section" class="service-section">
+    <div class="service-card">
+      <h2>Water Conservation Tips </h2>
+      <p>Discover simple, impactful ways to save water at home
+        and in your community.</p>
+    </div>
+    <div class="service-card">
+      <h2>Local Water Sources</h2>
+      <p>Explore the purity of nearby rivers, lakes, and
+        groundwater sources essential for our future</p>
+    </div>
+    <div class="service-card">
+      <h2>Rainwater Harvesting</h2>
+      <p>Learn about sustainable solutions to collect and use
+      rainwater effectively</p>
+    </div>
+  </section>
+
+  <!-- Community Clean-Up Section -->
+  <section class="community-cleanup">
+    <h2>Community Clean-Up</h2>
+    <p>Join us in making a difference! Our community clean-up events bring together people who are passionate about protecting and restoring water bodies. Be a part of our mission to clean beaches, lakes, and rivers, and help us make our waters pristine for future generations.</p>
+    <a href="#join" class="join-button">Join a Clean-Up Event</a>
+  </section>
+
+  <!-- Project Team Section -->
+  <section class="project-team">
+    <h2>Meet Our Project Team</h2>
+    <div class="team-members">
+      <div class="team-member">
+        <img src="Rishab Mishra.jpg" alt="Team Member 1">
+        <h3>Rishab Mishra</h3>
+        <p>Working on this water
+            availability project has
+            shown me the importance of
+            every drop.</p>
+      </div>
+      <div class="team-member">
+        <img src="Karan Bawa.jpg" alt="Team Member 2">
+        <h3>Karan Bawa
+
+            (Developer)</h3>
+        <p>This project helped us
+            explore the various ways we
+            can protect and sustain our
+            local water resources
+            additionally I gain knowledge
+            of web development while
+            doing this project. </p>
+      </div>
+      <div class="team-member">
+        <img src="Ansh.jpg" alt="Team Member 3">
+        <h3>Ansh Sharma</h3>
+        <p>Through this initiative, we
+            aim to educate others about
+            simple actions they can take
+            to preserve water.
+            </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section" class="contact-section">
+    <h2>Contact</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:your-email@example.com">karanbawa.xp@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/karan-bawa-3a2366304" target="_blank">Karan Bawa</a></p>
+      <p>Upwork: <a href="https://www.upwork.com/freelancers/~01432f681e50b4caba?mp_source=share" target="_blank">freelancers/Karan Bawa</a></p>
+    </div>
+  </section>
+  
+  
+</body>
+</html>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        window.scrollTo({
+          top: target.offsetTop,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  
+</html>
